@@ -20,10 +20,12 @@ public class Email {
         int atpos = email.indexOf("@");
         int dotpos = email.lastIndexOf(".");
 
-        if (atpos > 1 && (dotpos - atpos) > 2) {
-            System.out.println("Email is valid");
-        } else {
-            System.out.println("Email is invalid");
-        }
+
+
+
+
+
+
+
     }
 }
